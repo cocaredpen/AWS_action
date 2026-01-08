@@ -33,6 +33,5 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_TOKEN: ${{ secrets.AWS_SECRET_ACCESS_TOKEN }}
           TF_VAR_aws_region: ${{ secrets.AWS_REGION }}
-            
+          TF_VAR_ami_id: ami-01b9f1e7dc427266e 
